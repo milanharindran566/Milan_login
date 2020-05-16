@@ -1,9 +1,5 @@
 <?php
-    $dbservername = "localhost";
-    $dbusername = "root";
-    $dbpassword = "123456";
-    $dbname = "users";
-    $conn = mysqli_connect($dbservername, $dbusername, $dbpassword, $dbname);
+    require "databaseconn.php";
     /*if (!$conn){
         echo "Error";
     }*/
